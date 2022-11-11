@@ -1,0 +1,50 @@
+@import "./Variable.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 53px 0;
+    background-color: transparent;
+
+    .header_logo_box {
+        img {
+            width: 99px;
+        }
+    }
+
+    .header_item_box {
+        font-size: 1.4rem;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+
+            li {
+                text-decoration: none;
+                list-style: none;
+            }
+        }
+    }
+
+    .header_buttons_box {
+        font-size: 1.4rem;
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+        }
+        button:last-child {
+            width: 137px;
+            height: 52px;
+            background-color: $header-button-color;
+            color: $color-white;
+          }
+    }
+}

@@ -4,6 +4,7 @@
     padding: 0 10rem;
     width: 100%;
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
+    overflow: hidden;
 
     .container {
         display: flex;
@@ -14,7 +15,7 @@
             flex: 1.14;
 
             h1 {
-                font-size: 6.0rem;
+                font-size: 6rem;
                 font-weight: $font-weight-bold;
                 line-height: 80px;
             }
@@ -33,7 +34,7 @@
             .hero_button_box {
                 display: flex;
                 align-items: center;
-                padding: 5.6rem 0;
+                padding: 5.6rem 0 5.3rem 0;
 
                 button {
                     margin: 0 5.0rem 0 0;
@@ -68,6 +69,7 @@
                             border-left: 20px solid $color-white;
                             border-bottom: 15px solid transparent;
                             border-right: 15px solid transparent;
+                            border-top-right-radius: 30%
                         }
                     }
 
@@ -160,22 +162,46 @@
                     margin-left: 11px;
                 }
             }
+
+            .bellow-button-tick {
+                display: flex;
+                gap: 29px;
+
+                .first-tick-box {
+                    align-items: center;
+                    display: flex;
+                    gap: 6px;
+                }
+
+                .second-tick-box {
+                    align-items: center;
+                    display: flex;
+                    gap: 6px;
+                }
+            }
         }
 
         .image_box {
-
+            position: relative;
             flex: .86;
 
-            img {
-                position: absolute;
+            .hand-image img {
+                position: relative;
                 width: 508.64px;
                 height: 966px;
                 left: 743px;
                 top: 71px;
-
             }
 
         }
+
+    }
+    .hero-side-svg{
+        position: absolute;
+        width: 289.87px;
+        height: 160.36px;
+        left: 1399.39px;
+        top: 718px;
 
     }
 }

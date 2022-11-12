@@ -1,60 +1,107 @@
 @import "./Variable.scss";
 
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 53px 0;
-    background-color: transparent;
-
-    .header_logo_box {
-        img {
-            width: 99px;
-        }
+.navigation {
+    .nav-toggle {
+        display: none;
     }
 
-    .header_item_box {
-        font-size: 1.4rem;
-        font-weight: $font-weight-regular;
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: transparent;
 
-        ul {
-            display: flex;
-            justify-content: space-around;
-            gap: 20px;
+        .header_logo_box {
+            img {
+                width: 99px;
+            }
+        }
 
-            li {
-                text-decoration: none;
-                list-style: none;
+        .header_item_box {
+            font-size: 1.6rem;
+            font-weight: $font-weight-regular;
 
-                a {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 2rem;
+
+                li {
                     text-decoration: none;
-                    color: $primary-color;
+                    list-style: none;
+
+
+                    a {
+                        text-decoration: none;
+                        color: $primary-color;
+                    }
                 }
             }
         }
+
+        .header_buttons_box {
+            display: flex;
+            font-size: 1.6rem;
+            font-weight: $font-weight-regular;
+            ;
+            gap: 5rem;
+            justify-content: space-between;
+            text-decoration: none;
+
+            button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+
+            }
+
+            button:last-child {
+                width: 137px;
+                height: 52px;
+                background-color: $header-button-color;
+                color: $color-white;
+            }
+        }
     }
+}
 
-    .header_buttons_box {
-        font-size: 1.4rem;
-        font-weight: $font-weight-regular;
-        display: flex;
-        gap: 50px;
-        justify-content: space-between;
-        text-decoration: none;
-
-        button {
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-
+@media screen and (max-width: 768px) {
+    .navigation {
+        .nav-toggle {
+            display: block;
+            position: absolute;
+            right: 0;
         }
 
-        button:last-child {
-            width: 137px;
-            height: 52px;
-            background-color: $header-button-color;
-            color: $color-white;
+        .header {
+            flex-direction: column;
+            text-align: center;
+            gap: 0;
+
+            .header_item_box {
+                width: 100%;
+                ul {
+                    flex-direction: column;
+                    padding: 0;
+                    gap: 0;
+
+                    li {
+                        border-top: 1px solid $primary-color;
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+            }
+
+            .header_buttons_box {
+                flex-direction: column;
+                gap: 0;
+            }
+
+
         }
     }
 }

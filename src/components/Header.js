@@ -5,31 +5,34 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <div class="header">
-      <div class="header_logo_box">
-        <img src={logo} alt="AR SHAKIR" />
+    <nav className="navigation">
+      <button className="nav-toggle">BTN</button>
+      <div className="header">
+        <div className="header_logo_box">
+          <img src={logo} alt="AR SHAKIR" />
+        </div>
+        <div className="header_item_box">
+          <ul>
+            <li>
+              <Link href="#">Product</Link>
+            </li>
+            <li>
+              <Link href="#">Template</Link>
+            </li>
+            <li>
+              <Link href="#">Blog</Link>
+            </li>
+            <li>
+              <Link href="#">Prizing</Link>
+            </li>
+          </ul>
+        </div>
+        <div className="header_buttons_box">
+          <button>Sign In</button>
+          <button>Start Free</button>
+        </div>
       </div>
-      <div class="header_item_box">
-        <ul>
-          <li>
-            <Link href="#">Product</Link>
-          </li>
-          <li>
-            <Link href="#">Template</Link>
-          </li>
-          <li>
-            <Link href="#">Blog</Link>
-          </li>
-          <li>
-            <Link href="#">Prizing</Link>
-          </li>
-        </ul>
-      </div>
-      <div class="header_buttons_box">
-        <button>Sign In</button>
-        <button>Start Free</button>
-      </div>
-    </div>
+    </nav>
   )
 }
 

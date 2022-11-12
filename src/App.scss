@@ -1,9 +1,22 @@
+@import "./assets/scss/Variable.scss";
+
 /* Normalizing Css */
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $primary-font-family;
+  font-size: $default-font-size;
+  color: $primary-color;
 }
 
 /* Remove default margin */
@@ -61,9 +74,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {

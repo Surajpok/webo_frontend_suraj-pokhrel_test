@@ -2,22 +2,25 @@
 
 .hero_container {
     padding: 0 10rem;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     overflow: hidden;
 
     .container {
         display: flex;
-        height: 100vh;
         flex-wrap: wrap;
+        height: 100%;
 
         .hero_title_box {
             flex: 1.14;
 
             h1 {
                 font-size: 6rem;
+                padding-top: 5rem;
                 font-weight: $font-weight-bold;
                 line-height: 80px;
+                letter-spacing: -0.03em;
             }
 
             p {
@@ -182,26 +185,55 @@
         }
 
         .image_box {
-            position: relative;
+            background-image: url("../images/hand.png");
             flex: .86;
-
-            .hand-image img {
-                position: relative;
-                width: 508.64px;
-                height: 966px;
-                left: 743px;
-                top: 71px;
-            }
+            background-position: 10px -50px;
+            background-size: 450px;
+            background-repeat: no-repeat;
 
         }
 
     }
-    .hero-side-svg{
-        position: absolute;
-        width: 289.87px;
-        height: 160.36px;
-        left: 1399.39px;
-        top: 718px;
 
+}
+
+@media screen and (max-width: 768px) {
+    .hero_container{
+        padding: 0 1rem;
+        height:fit-content;
+        .container{
+            flex-direction: column;
+            .hero_title_box {
+                flex: 1.14;
+    
+                h1 {
+                    font-size: 4rem;
+                    padding-top: 5rem;
+                    line-height: 40px;
+                }
+    
+                .hero_button_box {
+                    display: flex;
+                    align-items: center;
+                    padding: 5.6rem 0 5.3rem 0;
+    
+                    button {
+                        margin: 0 5.0rem 0 0;
+                        height: 60px;
+                        width: 142px;
+                        border-radius: 47px;
+                        background-color: $secondary-color;
+                        border: none;
+                        cursor: pointer;
+                        color: $color-white;
+                    }
+    
+                    .play-button-text {
+                        display: none;
+                    }
+                }
+    
+            }
+        }
     }
 }

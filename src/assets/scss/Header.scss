@@ -70,17 +70,25 @@
 
 @media screen and (max-width: 768px) {
     .navigation {
+        color:$color-white;
         .nav-toggle {
             display: block;
             position: absolute;
-            right: 0;
+            right: 2rem;
+            top:2rem;
         }
 
         .header {
             flex-direction: column;
             text-align: center;
             gap: 0;
-
+            background-color: $color-white;
+            .header_logo_box {
+                img {
+                    position: absolute;
+                    left: 2rem;
+                }
+            }
             .header_item_box {
                 width: 100%;
                 ul {
@@ -89,7 +97,7 @@
                     gap: 0;
 
                     li {
-                        border-top: 1px solid $primary-color;
+                        border-bottom: 1px solid $primary-color;
                         width: 100%;
                         padding: 10px;
                     }

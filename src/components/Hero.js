@@ -1,9 +1,7 @@
 import React from "react"
 import Header from "./Header"
 import "../assets/scss/Hero.scss"
-import Handimage from "../assets/images/hand.png"
 import Tick from "../assets/images/tick.png"
-import Sidesvg from "../assets/images/fill1.svg"
 const Hero = () => {
   return (
     <div className="hero_container">
@@ -41,10 +39,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="image_box">
-          <img className ="hand-image" src={Handimage} alt="credit card on hand" />
         </div>
       </div>
-      <img className = "hero-side-svg" src={Sidesvg} alt="" />
     </div>
   )
 }

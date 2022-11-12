@@ -184,12 +184,14 @@
             }
         }
 
-        .image_box {
-            background-image: url("../images/hand.png");
-            flex: .86;
-            background-position: 10px -50px;
-            background-size: 450px;
-            background-repeat: no-repeat;
+        .image_box img{
+            // background-image: url("../images/hand.png");
+            // flex: .86;
+            // background-position: 10px -50px;
+            // background-size: 450px;
+            // background-repeat: no-repeat;
+            flex: 1;
+            height: 800px;
 
         }
 
@@ -232,6 +234,11 @@
                         display: none;
                     }
                 }
+    
+            }
+            .image_box img{
+                flex: 1;
+                height: auto;
     
             }
         }

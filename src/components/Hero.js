@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./Header"
 import "../assets/scss/Hero.scss"
 import Tick from "../assets/images/tick.png"
+import Hand from "../assets/images/hand.png"
 const Hero = () => {
   return (
     <div className="hero_container">
@@ -39,6 +40,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="image_box">
+        <img src={Hand} alt="" />
         </div>
       </div>
     </div>

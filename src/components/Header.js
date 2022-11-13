@@ -22,7 +22,7 @@ const Header = () => {
       window.removeEventListener('resize', changeWidth)
     }
   }, [])
-  
+
   return (
     <nav className="navigation">
       <button onClick={toggleNav} className="nav_toggle">

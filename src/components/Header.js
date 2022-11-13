@@ -28,7 +28,7 @@ const Header = () => {
       <button onClick={toggleNav} className="nav-toggle">
         MENU
       </button>
-      {(toggleMenu || screenWidth > 768) && (
+      {(toggleMenu || screenWidth > 870) && (
         <div className="header">
           <div className="header_logo_box">
             <img src={logo} alt="AR SHAKIR" />

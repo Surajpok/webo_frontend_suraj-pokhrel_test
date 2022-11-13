@@ -30,17 +30,21 @@ const Hero = () => {
           </div>
           <div className="bellow-button-tick">
             <div className="first-tick-box">
-              <div className="tick"><img src={Tick} alt = "" /></div>
+              <div className="tick">
+                <img src={Tick} alt="" />
+              </div>
               <div className="text">Free Register</div>
             </div>
             <div className="second-tick-box">
-              <div className="tick"><img src={Tick} alt = "" /></div>
+              <div className="tick">
+                <img src={Tick} alt="" />
+              </div>
               <div className="text">Great Service</div>
             </div>
           </div>
         </div>
         <div className="image_box">
-        <img src={Hand} alt="" />
+          <img src={Hand} alt="" />
         </div>
       </div>
     </div>

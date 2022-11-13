@@ -27,7 +27,8 @@
 
         .companies {
             display: flex;
-            gap: 20px;
+            flex-wrap: wrap;
+            flex: 0 50%;
             width: 100%;
             height: min-content;
             justify-content: space-between;
@@ -35,7 +36,27 @@
 
             img {
                 height: 100%;
-                flex: 0 0 auto;
+                flex: 0 auto;
+            }
+        }
+    }
+}
+@media screen and (max-width: 870px) {
+    .companies_container {
+    
+        .wrapper {
+    
+            .text {
+                font-size: 2rem;
+                text-align: center;
+                font-weight: $font-weight-regular;
+            }
+    
+            .companies {
+                flex-basis: 33.333333%
+                img {
+                    width: auto;
+                }
             }
         }
     }

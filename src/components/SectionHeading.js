@@ -15,14 +15,14 @@ const SectionHeading = () => {
         <div className="section_heading_quote">
           <img src={Quote} alt="quote" />
           <div class="quote">
-          <q>
-            Wise busy past both park when an ye no. Nay likely her length sooner
-            thrown sex lively income. The expense windows adapted sir. Wrong
-            widen.
-          </q>
+            <q>
+              Wise busy past both park when an ye no. Nay likely her length
+              sooner thrown sex lively income. The expense windows adapted sir.
+              Wrong widen.
+            </q>
           </div>
           <div class="author">
-          <p>- Mike Taylor, Web Designer</p>
+            <p>- Mike Taylor, Web Designer</p>
           </div>
         </div>
       </div>

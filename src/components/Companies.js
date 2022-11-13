@@ -13,7 +13,7 @@ const Companies = () => {
     <div className="companies_container">
       <div class="wrapper">
         <div className="text">
-          Over 32k+ software businesses growing with AR Shakir.
+          <p>Over 32k+ software businesses growing with AR Shakir.</p>
         </div>
         <div className="companies">
           <img src={Company1} alt="" />

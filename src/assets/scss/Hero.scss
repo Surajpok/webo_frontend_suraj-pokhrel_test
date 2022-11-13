@@ -2,7 +2,7 @@
 
 .hero_container {
     position: relative;
-    padding: 0 10%;
+    padding: 0 8%;
     height: 100vh;
     max-height: 1100px;
     min-height: 640px;
@@ -17,12 +17,12 @@
     .fill2{
         position: absolute;
         left: 0;
-        bottom: 0;
-        width: 8%;
+        bottom: 2%;
+        width: 5%;
 
     }
     .fill3{
-        margin-bottom: -10%;
+        margin-bottom: -11%;
         width: 8%;
         position: absolute;
         bottom:0;
@@ -53,6 +53,7 @@
                 font-weight: 500;
                 font-size: 2rem;
                 line-height: 30spx;
+                width: 80%;
                 font-weight: $font-weight-regular;
                 color: $primary-color-lite;
                 letter-spacing: -0.02em;

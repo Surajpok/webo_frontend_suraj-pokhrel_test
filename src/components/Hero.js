@@ -3,10 +3,16 @@ import Header from "./Header"
 import "../assets/scss/Hero.scss"
 import Tick from "../assets/images/tick.png"
 import Hand from "../assets/images/hand.png"
+import Fill from "../assets/images/62.svg"
+import Fill2 from "../assets/images/24.svg"
+import Fill3 from "../assets/images/fill1.svg"
 const Hero = () => {
   return (
     <div className="hero_container">
       <Header />
+      <img className="fill1"src={Fill} alt=""/>
+      <img className="fill2"src={Fill2} alt=""/>
+      <img className="fill3"src={Fill3} alt=""/>
       <div className="container">
         <div className="hero_title_box">
           <h1>Managing freelance payments has never been easier</h1>

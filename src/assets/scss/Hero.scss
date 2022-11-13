@@ -1,6 +1,7 @@
 @import "./Variable.scss";
 
 .hero_container {
+    position: relative;
     padding: 0 10%;
     height: 100vh;
     max-height: 1100px;
@@ -8,6 +9,25 @@
     width: 100%;
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     overflow: hidden;
+    .fill1{
+        position: absolute;
+        right:0;
+        width: 4.5%;
+    }
+    .fill2{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 8%;
+
+    }
+    .fill3{
+        margin-bottom: -10%;
+        width: 8%;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
 
     .container {
         display: flex;
@@ -16,6 +36,7 @@
         height: 100%;
         max-width: 1280px;
         margin: auto;
+
         .hero_title_box {
             flex: 1.14;
 

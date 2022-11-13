@@ -10,9 +10,9 @@ const Hero = () => {
   return (
     <div className="hero_container">
       <Header />
-      <img className="fill1"src={Fill} alt=""/>
-      <img className="fill2"src={Fill2} alt=""/>
-      <img className="fill3"src={Fill3} alt=""/>
+      <img className="fill1" src={Fill} alt="" />
+      <img className="fill2" src={Fill2} alt="" />
+      <img className="fill3" src={Fill3} alt="" />
       <div className="container">
         <div className="hero_title_box">
           <h1>Managing freelance payments has never been easier</h1>

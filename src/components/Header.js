@@ -25,7 +25,7 @@ const Header = () => {
   
   return (
     <nav className="navigation">
-      <button onClick={toggleNav} className="nav-toggle">
+      <button onClick={toggleNav} className="nav_toggle">
         MENU
       </button>
       {(toggleMenu || screenWidth > 870) && (

@@ -22,26 +22,26 @@ const Hero = () => {
           </p>
           <div className="hero_button_box">
             <button>Get Started</button>
-            <div className="wave-box">
+            <div className="wave_box">
               <div className="play_button">
                 <div className="triangle"></div>
               </div>
-              <div className="iq-waves">
-                <div className="waves wave-1"></div>
-                <div className="waves wave-2"></div>
-                <div className="waves wave-3"></div>
+              <div className="iq_waves">
+                <div className="waves wave_1"></div>
+                <div className="waves wave_2"></div>
+                <div className="waves wave_3"></div>
               </div>
             </div>
-            <div className="play-button-text">See How It Works</div>
+            <div className="play_button_text">See How It Works</div>
           </div>
-          <div className="bellow-button-tick">
-            <div className="first-tick-box">
+          <div className="bellow_button_tick">
+            <div className="first_tick_box">
               <div className="tick">
                 <img src={Tick} alt="" />
               </div>
               <div className="text">Free Register</div>
             </div>
-            <div className="second-tick-box">
+            <div className="second_tick_box">
               <div className="tick">
                 <img src={Tick} alt="" />
               </div>

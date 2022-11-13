@@ -10,7 +10,7 @@ import Company7 from "../assets/images/companies/Group-6.png"
 
 const Companies = () => {
   return (
-    <div className="companies-container">
+    <div className="companies_container">
       <div class="wrapper">
         <div className="text">
           Over 32k+ software businesses growing with AR Shakir.

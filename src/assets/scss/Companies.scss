@@ -1,6 +1,6 @@
 @import "./Variable.scss";
 
-.companies-container{
+.companies_container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,9 @@
     height: min-content;
     width: 100%;
     margin: auto;
-    .wrapper{
+    background-color: $color-milk-white;
+
+    .wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -17,21 +19,24 @@
         max-width: 1280px;
         width: 100%;
         margin: 6rem auto;
-    .text{
-        font-size: 2.2rem;
-        font-weight: $font-weight-regular;
-    }
-    .companies{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        width: 100%;
-        height: 2rem;
-        justify-content: space-between;
-        img{
-            height: 100%;
-            flex: 0 0 auto;
+
+        .text {
+            font-size: 2.2rem;
+            font-weight: $font-weight-regular;
+        }
+
+        .companies {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            height: min-content;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                height: 100%;
+                flex: 0 0 auto;
+            }
         }
     }
-}
 }

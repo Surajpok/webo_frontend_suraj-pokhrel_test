@@ -80,7 +80,7 @@
                     color: $color-white;
                 }
 
-                .wave-box {
+                .wave_box {
                     position: relative;
 
                     .play_button {
@@ -106,7 +106,7 @@
                         }
                     }
 
-                    .iq-waves {
+                    .iq_waves {
                         position: absolute;
                         width: 14rem;
                         height: 14rem;
@@ -132,15 +132,15 @@
 
                         }
 
-                        .wave-1 {
+                        .wave_1 {
                             animation-delay: 0s;
                         }
 
-                        .wave-2 {
+                        .wave_2 {
                             animation-delay: 1s;
                         }
 
-                        .wave-3 {
+                        .wave_3 {
                             animation-delay: 2s;
                         }
 
@@ -188,7 +188,7 @@
                     }
                 }
 
-                .play-button-text {
+                .play_button_text {
                     color: $secondary-color;
                     font-weight: $font-weight-regular;
                     font-size: 1.7rem;
@@ -196,17 +196,17 @@
                 }
             }
 
-            .bellow-button-tick {
+            .bellow_button_tick {
                 display: flex;
                 gap: 29px;
 
-                .first-tick-box {
+                .first_tick_box {
                     align-items: center;
                     display: flex;
                     gap: 6px;
                 }
 
-                .second-tick-box {
+                .second_tick_box {
                     align-items: center;
                     display: flex;
                     gap: 6px;
@@ -241,20 +241,21 @@
                     padding-top: 5rem;
                     line-height: 40px;
                 }
-                .bellow-button-tick {
 
-                .first-tick-box {
-                    .text{
-                        font-size: 1.4rem;
+                .bellow_button_tick {
+
+                    .first_tick_box {
+                        .text {
+                            font-size: 1.4rem;
+                        }
+                    }
+
+                    .second_tick_box {
+                        .text {
+                            font-size: 1.4rem;
+                        }
                     }
                 }
-
-                .second-tick-box {
-                    .text{
-                        font-size: 1.4rem;
-                    }
-                }
-            }
 
                 .hero_button_box {
                     display: flex;
@@ -272,7 +273,7 @@
                         color: $color-white;
                     }
 
-                    .play-button-text {
+                    .play_button_text {
                         display: none;
                     }
                 }
@@ -313,6 +314,7 @@
                     letter-spacing: -0.03em;
                 }
             }
+
             .image_box img {
                 justify-content: center;
                 flex: 0 0 50%;

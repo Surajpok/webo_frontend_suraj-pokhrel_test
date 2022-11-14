@@ -5,7 +5,8 @@ import Greensvg from "../assets/images/greencircle.svg"
 import Orangesvg from "../assets/images/orangecircle.svg"
 import Bluesvg from "../assets/images/bluecircle.png"
 import Quotesvg from "../assets/images/quote.svg"
-import Quote from "./Quote"
+import Ovel from "../assets/images/ovel.svg"
+import Quote from "./reuseable/Quote"
 const SectionContent = () => {
   return (
     <div className="section_container">
@@ -15,8 +16,9 @@ const SectionContent = () => {
             <img className="green" src={Greensvg} alt="" />
             <img className="orange" src={Orangesvg} alt="" />
             <img className="blue" src={Bluesvg} alt="" />
+            <img className="ovel" src={Ovel} alt="" />
             {profitsData.map((item, key) => (
-              <div key={item.key} className="profit">
+              <div key={item.key} className={item.class}>
                 <div className="person_img">
                   <img src={item.img} alt="" />
                 </div>

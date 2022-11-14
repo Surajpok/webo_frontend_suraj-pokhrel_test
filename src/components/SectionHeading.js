@@ -2,7 +2,7 @@ import React from "react"
 import "../assets/scss/SectionHeading.scss"
 import Quotesvg from "../assets/images/quote.svg"
 import { sectionHeadingData } from "../data"
-import Quote from "./Quote"
+import Quote from "./reuseable/Quote"
 const SectionHeading = () => {
   return (
     <div className="section_heading_container">

@@ -1,9 +1,11 @@
 import React from "react"
-import { sectionContentData, profitsData } from "../data"
+import { sectionContentData, profitsData, sectionContentDataOne } from "../data"
 import "../assets/scss/SectionContent.scss"
 import Greensvg from "../assets/images/greencircle.svg"
 import Orangesvg from "../assets/images/orangecircle.svg"
 import Bluesvg from "../assets/images/bluecircle.png"
+import Quotesvg from "../assets/images/quote.svg"
+import Quote from "./Quote"
 const SectionContent = () => {
   return (
     <div className="section_container">
@@ -50,6 +52,24 @@ const SectionContent = () => {
                 <li>{item.bullets3}</li>
               </div>
             </div>
+          </div>
+        </div>
+      ))}
+
+      {sectionContentDataOne.map((item, key) => (
+        <div className="section_wrapper">
+          <div className="section_right">
+            <div className="small_text_top">{item.toptext}</div>
+            <div className="right_title">
+              <h2>{item.title}</h2>
+            </div>
+            <div className="right_paragraph">
+              <p>{item.content}</p>
+            </div>
+            <Quote quote={item.quote} author={item.author} img={Quotesvg} />
+          </div>
+          <div className="section_left">
+
           </div>
         </div>
       ))}

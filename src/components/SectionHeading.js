@@ -1,7 +1,8 @@
 import React from "react"
 import "../assets/scss/SectionHeading.scss"
-import Quote from "../assets/images/quote.svg"
+import Quotesvg from "../assets/images/quote.svg"
 import { sectionHeadingData } from "../data"
+import Quote from "./Quote"
 const SectionHeading = () => {
   return (
     <div className="section_heading_container">
@@ -13,17 +14,7 @@ const SectionHeading = () => {
               {item.content}
             </p>
           </div>
-          <div className="section_heading_quote">
-            <img src={Quote} alt="quote" />
-            <div className="quote">
-              <q>
-                {item.quote}
-              </q>
-            </div>
-            <div className="author">
-              <p>{item.author}</p>
-            </div>
-          </div>
+          <Quote quote={item.quote} author={item.author} img={Quotesvg} />
         </div>
       ))}
     </div>

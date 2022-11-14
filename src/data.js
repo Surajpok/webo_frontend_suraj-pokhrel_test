@@ -73,11 +73,20 @@ export const sectionContentData = [
         bullets1: "Get Overview at a glance",
         bullets2: "Deoposit funds easily, securlity",
         bullets3: "Get Live Support",
-        flotingimg1: require("./assets/images/priceone.png"),
-        flotingimg2: require("./assets/images/pricetwo.png"),
-        flotingimg3: require("./assets/images/pricethree.png"),
-        flotingimg4: require("./assets/images/pricefour.png"),
         tick: require("./assets/images/tick2.png")
+    }
+]
+
+export const sectionContentDataOne = [
+    {
+        id: 1,
+        toptext: "Why Choose Us",
+        title: "Save money with proper transaction",
+        content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own.",
+        quote: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows.",
+        author: "- Mike Taylor, Web Designer",
+        img1: require("./assets/images/tick2.png"),
+        img2: require("./assets/images/pricefour.png")
     }
 ]
 

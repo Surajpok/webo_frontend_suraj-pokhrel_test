@@ -29,42 +29,7 @@
             }
         }
 
-        .section_heading_quote {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            flex: 1.5;
-            background-color: $color-gray;
-            padding: 3rem;
-            border-radius: 2rem;
 
-            img {
-                height: 4.4rem;
-                width: auto;
-                position: absolute;
-                top: -2.2rem;
-                left: 10;
-            }
-
-            .quote {
-                font-size: 1.5rem;
-                quotes: none;
-                line-height: 2.2rem;
-                letter-spacing: -2%;
-                font-weight: $font-weight-semi-regular;
-                margin-bottom: 1rem;
-            }
-
-            .author {
-                font-size: 1.5rem;
-                quotes: none;
-                line-height: 2.2rem;
-                letter-spacing: -0.03em;
-                font-weight: $font-weight-semi-regular;
-            }
-
-        }
     }
 }
 

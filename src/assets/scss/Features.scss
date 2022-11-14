@@ -1,0 +1,97 @@
+@import "./Variable.scss";
+
+.features_container {
+    padding: 14rem 8% 14rem 8%;
+    height: min-content;
+    background-color: $color-highlight-second;
+
+    .features_wrappers {
+        margin: auto;
+        max-width: 1280px;
+
+        h1 {
+            font-size: 7.1rem;
+            font-weight: $font-weight-bold;
+            line-height: 6.6rem;
+            letter-spacing: -0.03em;
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-weight: $font-weight-regular;
+            line-height: 2.9rem;
+            letter-spacing: -0.02em;
+            margin: 2rem 0;
+            max-width: 55ch;
+        }
+
+        .features_boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 4rem 4rem;
+            grid-template-areas:
+                "one two three"
+                "one two four";
+            justify-items: center;
+            align-items: center;
+
+            h3 {
+                font-size: 2.2rem;
+
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            .feature_one {
+                grid-area: one;
+                border: 1px solid #ABC8D2;
+                background-color: $color-white;
+                border-radius: 10px;
+                padding: 4rem;
+
+                h3 {
+
+                    padding: 3rem 0 2rem 0;
+                }
+
+            }
+
+            .feature_two {
+                grid-area: two;
+                border: 1px solid #ABC8D2;
+                background-color: $color-white;
+                border-radius: 10px;
+                padding: 4rem;
+
+                h3 {
+
+                    padding: 3rem 0 2rem 0;
+                }
+
+            }
+
+            .feature_three {
+                grid-area: three;
+                border: 1px solid #ABC8D2;
+                background-color: $color-white;
+                border-radius: 10px;
+                padding: 4rem;
+
+            }
+
+            .feature_four {
+                grid-area: four;
+                border: 1px solid #ABC8D2;
+                background-color: $color-white;
+                border-radius: 10px;
+                padding: 4rem;
+
+            }
+
+        }
+    }
+
+}

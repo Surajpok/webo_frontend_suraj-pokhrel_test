@@ -34,7 +34,7 @@ export const sectionHeadingData = [
         quote: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows adapted sir. Wrong widen.",
         author: "- Mike Taylor, Web Designer"
 
-    },
+    }
 ]
 
 export const valuePropsData = [
@@ -122,5 +122,40 @@ export const sectionContentDataOne = [
         author: "- Mike Taylor, Web Designer",
         img1: require("./assets/images/handwithcard.png"),
         img2: require("./assets/images/chart.png")
+    }
+]
+
+export const featuresData = [
+    {
+        id: 1,
+        heading: "Features that blows mind",
+        content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own.",
+        subData: [
+            {
+                id: 1,
+                class: "feature_one",
+                img: require("./assets/images/transaction.png"),
+                title: "Really boy law county she unable her sister",
+                content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+            },
+            {
+                id: 2,
+                class: "feature_two",
+                img: require("./assets/images/wallet.png"),
+                title: "Among sex are leave law built now",
+                content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+            },
+            {
+                id: 3,
+                class: "feature_three",
+                title: "Merits behind on afraid or warmly",
+            },
+            {
+                id: 4,
+                class: "feature_four",
+                title: "Believing neglected so so allowance existence",
+            }
+        ]
+
     }
 ]

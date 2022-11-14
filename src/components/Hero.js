@@ -52,7 +52,7 @@ const Hero = () => {
             <img src={item.heroImage} alt="" />
           </div>
         </div>
-      ))};
+      ))}
     </div>
   )
 }

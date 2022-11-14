@@ -1,5 +1,6 @@
 import React from "react"
 import Companies from "../components/Companies"
+import Features from "../components/Features"
 import Hero from "../components/Hero"
 import SectionContent from "../components/SectionContent"
 import SectionHeading from "../components/SectionHeading"
@@ -12,6 +13,7 @@ const Home = () => {
       <SectionHeading />
       <ValueProps />
       <SectionContent />
+      <Features />
     </>
   )
 }

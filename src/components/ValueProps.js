@@ -1,9 +1,6 @@
 import React from "react"
 import "../assets/scss/ValueProps.scss"
 import { valuePropsData } from "../data"
-// import Wallet from "../assets/images/wallet.png"
-// import Transaction from "../assets/images/transaction.png"
-// import Income from "../assets/images/income.png"
 const ValueProps = () => {
     return (
         <div className="value_pops_container">

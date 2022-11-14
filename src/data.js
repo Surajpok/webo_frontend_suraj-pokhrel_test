@@ -63,3 +63,49 @@ export const valuePropsData = [
 
     }
 ]
+
+export const sectionContentData = [
+    {
+        id: 1,
+        toptext: "Why Choose Us",
+        title: "Track your payments on the go with the best way possible",
+        content: "Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.",
+        bullets1: "Get Overview at a glance",
+        bullets2: "Deoposit funds easily, securlity",
+        bullets3: "Get Live Support",
+        flotingimg1: require("./assets/images/priceone.png"),
+        flotingimg2: require("./assets/images/pricetwo.png"),
+        flotingimg3: require("./assets/images/pricethree.png"),
+        flotingimg4: require("./assets/images/pricefour.png"),
+        tick: require("./assets/images/tick2.png")
+    }
+]
+
+export const profitsData = [
+
+    {
+        id: 1,
+        img: require("./assets/images/person1.png"),
+        amount: "+ $28,900",
+        msg: "Received from Michael V"
+    },
+    {
+        id: 2,
+        img: require("./assets/images/person2.png"),
+        amount: "+ $28,900",
+        msg: "Received from Michael V"
+    },
+    {
+        id: 3,
+        img: require("./assets/images/person3.png"),
+        amount: "+ $28,900",
+        msg: "Received from Michael V"
+    },
+    {
+        id: 4,
+        img: require("./assets/images/person4.png"),
+        amount: "+ $28,900",
+        msg: "Received from Michael V"
+    }
+
+]

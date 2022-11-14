@@ -3,10 +3,6 @@
 .hero_container {
     position: relative;
     padding: 0 8%;
-    height: 100vh;
-    max-height: 1100px;
-    min-height: 640px;
-    min-height: -webkit-fill-available;
     width: 100%;
     background: linear-gradient(292.12deg, #62BADA -35.02%, #C9E7F2 78.96%);
     overflow: hidden;
@@ -35,9 +31,11 @@
 
     .container {
         display: flex;
-        justify-content: center;
+        position: relative;
         flex-wrap: wrap;
-        height: 100%;
+        height: 90vh;
+        min-height: 69rem;
+        max-height: 72rem;
         max-width: 1280px;
         margin: auto;
 
@@ -216,8 +214,7 @@
 
         .image_box img {
             flex: 1;
-            height: 800px;
-
+            align-self: flex-end;
         }
 
     }

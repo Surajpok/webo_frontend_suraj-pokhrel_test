@@ -120,7 +120,7 @@ export const sectionContentDataOne = [
         content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own.",
         quote: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows.",
         author: "- Mike Taylor, Web Designer",
-        img1: require("./assets/images/tick2.png"),
-        img2: require("./assets/images/pricefour.png")
+        img1: require("./assets/images/handwithcard.png"),
+        img2: require("./assets/images/chart.png")
     }
 ]

@@ -68,10 +68,15 @@ const SectionContent = () => {
             <div className="right_paragraph">
               <p>{item.content}</p>
             </div>
-            <Quote quote={item.quote} author={item.author} img={Quotesvg} />
+            <div className="quote_box">
+              <Quote quote={item.quote} author={item.author} img={Quotesvg} />
+            </div>
           </div>
-          <div className="section_left">
-
+          <div className="section_left_2">
+            <div className="chart">
+              <img className="chart_img" src={item.img2} alt="" />
+            </div>
+            <img className="card_on_hand" src={item.img1} alt="" />
           </div>
         </div>
       ))}

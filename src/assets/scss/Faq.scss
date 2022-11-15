@@ -72,3 +72,36 @@
 .FAQCard:nth-child(-n+4) {
     margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 870px) {
+    .FAQCard {
+
+
+
+
+        .questionHeader {
+
+
+            h3 {
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                font-weight: $font-weight-bold;
+            }
+
+            .chefron-right {
+                --b: 2px;
+                /* the thickness */
+                width: 3rem;
+                /* the size */
+                aspect-ratio: 1;
+
+            }
+
+
+        }
+
+
+    }
+
+
+}

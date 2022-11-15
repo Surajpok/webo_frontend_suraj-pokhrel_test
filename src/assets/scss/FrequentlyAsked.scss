@@ -4,6 +4,17 @@
     padding: 0 8% 14rem 8%;
     height: min-content;
 
+    .star_svg_box {
+        // height: 10vh;
+        width: 100%;
+
+        .star_svg {
+            position: absolute;
+            right: 0;
+            width: 9%;
+        }
+    }
+
     .faq_wrapper {
         max-width: 1280px;
         margin: auto;

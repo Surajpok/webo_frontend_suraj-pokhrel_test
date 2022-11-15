@@ -43,7 +43,7 @@
         .jigjag_one_svg {
             position: absolute;
             top: 55%;
-            left: 6%;
+            left: 4%;
         }
 
         .discover_title {
@@ -65,6 +65,7 @@
                 color: $color-white;
                 padding: 2rem 5rem;
                 border-radius: 10px;
+                cursor: pointer;
             }
         }
     }
@@ -74,6 +75,14 @@
     .discover_container {
         padding: 4rem 8% 4rem 8%;
         height: min-content;
+
+        .cone_svg {
+            display: none;
+        }
+
+        .cone_one_svg {
+            display: none;
+        }
 
         .discover_wrapper {
             align-items: stretch;

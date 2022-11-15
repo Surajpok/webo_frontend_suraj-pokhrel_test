@@ -1,10 +1,11 @@
 import React from 'react'
 import "../assets/scss/Stats.scss"
 import { statsData } from '../data'
+import Scruid from "../assets/images/scruid.svg"
 const Stats = () => {
     return (
         <div className="stats_container">
-
+            <img className="scruid" src={Scruid} alt="" />
             <div className="stats_wrapper">
                 {statsData.map((item, key) => (
                     <div className={item.class}>

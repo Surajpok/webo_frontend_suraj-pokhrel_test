@@ -3,10 +3,14 @@ import { FAQ } from '../data'
 import Faq from './reuseable/Faq'
 import "../assets/scss/FrequentlyAsked.scss"
 import Mail from "../assets/images/mail.png"
+import Starsvg from "../assets/images/star.png"
 const FrequentlyAsked = () => {
     return (
 
         <div className="frequently_container">
+            <div className="star_svg_box">
+                <img className="star_svg" src={Starsvg} alt="" />
+            </div>
             <div className="faq_wrapper">
                 <h1>Fequently asked questions</h1>
                 <div className="frequently_wrapper">

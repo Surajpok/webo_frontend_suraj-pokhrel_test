@@ -38,3 +38,39 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .discover_container {
+        padding: 4rem 8% 4rem 8%;
+        height: min-content;
+
+        .discover_wrapper {
+
+            padding: 4rem;
+
+
+            .discover_title {
+                text-align: center;
+                letter-spacing: -0.03em;
+                color: $color-white;
+
+                h2 {
+                    font-size: 4.5rem;
+                    line-height: 5.1rem;
+                    padding: 2rem;
+                }
+            }
+
+            .discover_button {
+                button {
+                    background: $color-orange;
+                    border: none;
+                    color: $color-white;
+                    padding: 2rem 5rem;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,13 +1,7 @@
 import React from "react"
 import "../assets/scss/Companies.scss"
 import { companiesData } from "../data"
-import company1 from "../assets/images/companies/Group.png"
-import company2 from "../assets/images/companies/Group-1.png"
-import company3 from "../assets/images/companies/Group-2.png"
-import company4 from "../assets/images/companies/Group-3.png"
-import company5 from "../assets/images/companies/Group-4.png"
-import company6 from "../assets/images/companies/Group-5.png"
-import company7 from "../assets/images/companies/Group-6.png"
+
 
 const Companies = () => {
   return (

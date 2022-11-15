@@ -5,6 +5,7 @@
     height: min-content;
 
     .discover_wrapper {
+        position: relative;
         max-width: 1280px;
         margin: auto;
         min-height: max-content;
@@ -14,6 +15,36 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .net_svg {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
+
+        .cone_svg {
+            position: absolute;
+            top: 55%;
+            left: 25%;
+        }
+
+        .cone_one_svg {
+            position: absolute;
+            top: 50%;
+            right: 5%;
+        }
+
+        .jigjag_svg {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+        }
+
+        .jigjag_one_svg {
+            position: absolute;
+            top: 55%;
+            left: 6%;
+        }
 
         .discover_title {
             text-align: center;

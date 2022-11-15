@@ -5,14 +5,38 @@
 
     .stats_wrapper {
         display: flex;
+        flex-wrap: wrap;
+        padding: 6.3rem;
+        justify-content: space-between;
 
         .text {
+            color: $color-white;
 
-            .stars_text {}
+            .stars_text {
+                font-size: 1.9rem;
+                line-height: 4.1rem;
+                letter-spacing: -0.02em;
+                max-width: 13ch;
+                font-weight: $font-weight-semi-light;
+            }
 
             .datas {
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+
+                .data {
+                    font-size: 7.2rem;
+                    line-height: 7.2rem;
+                    font-weight: $font-weight-bold;
+                    letter-spacing: -0.02em;
+                }
+
+                .text {
+                    font-size: 3rem;
+                    line-height: 3.1rem;
+                    padding: 2rem 0;
+                }
             }
         }
     }

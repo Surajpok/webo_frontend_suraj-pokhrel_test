@@ -3,11 +3,12 @@
 .FAQCard {
     border: 1px solid #CFCFCF;
     padding-left: 40px;
-    margin-bottom: 20px;
     cursor: pointer;
     border-radius: 1rem;
     background: $color-white;
-    padding: 1.5rem;
+    padding: 2rem;
+
+
 
     .questionHeader {
         width: 100%;
@@ -17,7 +18,7 @@
         flex-direction: row;
 
         h3 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             line-height: 2.2rem;
             font-weight: $font-weight-bold;
         }
@@ -31,7 +32,7 @@
             border: none;
             /* the outer space */
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #fff 90deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #fff 90deg, #3D3D3D 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
             display: inline-block;
         }
 
@@ -41,7 +42,7 @@
             aspect-ratio: 1;
             border: none;
             background:
-                conic-gradient(from 90deg at var(--b) var(--b), #fff 90deg, #000 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+                conic-gradient(from 90deg at var(--b) var(--b), #fff 90deg, #3D3D3D 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
             display: inline-block;
             transform: rotate(45deg);
         }
@@ -52,6 +53,7 @@
         line-height: 3.1rem;
         letter-spacing: -0.02em;
         font-weight: $font-weight-regular;
+        padding: 2.3rem;
     }
 
     .visible {
@@ -65,4 +67,8 @@
     .answer {
         textcolor: grey;
     }
+}
+
+.FAQCard:nth-child(-n+4) {
+    margin-bottom: 1.5rem;
 }

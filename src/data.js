@@ -167,28 +167,17 @@ export const testimonialsData = [
                 id: 1,
                 class: "testimonial_one",
                 img: require("./assets/images/girlimg.png"),
-                title: "Really boy law county she unable her sister",
-                content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+                title: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows . Blessing welcomed ladyship.",
+                content: "- Mike Taylor, Web Designer",
             },
             {
                 id: 2,
                 class: "testimonial_two",
                 img: require("./assets/images/boyimg.png"),
-                title: "Among sex are leave law built now",
-                content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+                title: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows . Blessing welcomed ladyship.",
+                content: "- Mike Taylor, Web Designer",
             },
-            {
-                id: 3,
-                class: "testimonial_three",
-                img: require("./assets/images/girlimg.png"),
-                title: "Merits behind on afraid or warmly",
-            },
-            {
-                id: 4,
-                class: "testimonial_four",
-                img: require("./assets/images/boyimg.png"),
-                title: "Believing neglected so so allowance existence",
-            }
+
         ]
 
     }
@@ -225,17 +214,27 @@ export const statsData = [
 export const FAQ = [
     {
         id: 1,
-        question: "How many bones does a cat have?",
-        answer: "A cat has 230 bones - 6 more than a human",
+        question: "The expense windows adapted sir. Wrong widen drawn.",
+        answer: "Offending belonging promotion provision an be oh consulted ourselves it. Blessing welcomed ladyship she met humoured sir breeding her.",
     },
     {
         id: 2,
-        question: "How much do cats sleep?",
+        question: "Six curiosity day assurance bed necessary?",
         answer: "The average cat sleeps 12-16 hours per day",
     },
     {
         id: 3,
-        question: "How long do cats live",
+        question: "Produce say the ten moments parties?",
+        answer: "Outdoor cats live 5 years on average. Indoor cats live 15 years on average.",
+    },
+    {
+        id: 4,
+        question: "Simple innate summer fat appear basket his desire joy?",
+        answer: "Outdoor cats live 5 years on average. Indoor cats live 15 years on average.",
+    },
+    {
+        id: 5,
+        question: "Outward clothes promise at gravity do excited?",
         answer: "Outdoor cats live 5 years on average. Indoor cats live 15 years on average.",
     },
 ];

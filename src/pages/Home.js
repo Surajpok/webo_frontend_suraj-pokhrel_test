@@ -10,6 +10,7 @@ import Testimonials from "../components/Testimonials"
 import ValueProps from "../components/ValueProps"
 import { FAQ } from "../data"
 import FrequentlyAsked from "../components/FrequentlyAsked"
+import Discover from "../components/Discover"
 const Home = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const Home = () => {
       <Testimonials />
       <Stats />
       <FrequentlyAsked />
+      <Discover />
     </>
   )
 }

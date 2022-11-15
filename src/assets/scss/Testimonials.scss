@@ -41,14 +41,24 @@
 
             .testimonial {
                 display: flex;
+                justify-content: center;
+                background: $color-white;
+                border: 1px solid #CFCFCF;
+                border-radius: 10px;
+                padding: 3rem;
+
 
                 .testimonial_content {
-
-                    padding: 3rem 0 2rem 0;
+                    display: flex;
+                    flex-direction: column;
                 }
 
                 .testimonial_img {}
 
+            }
+
+            :first-child {
+                margin-right: 2rem;
             }
 
         }

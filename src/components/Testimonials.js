@@ -13,7 +13,7 @@ const Testimonials = () => {
                             <>
                                 <div className="testimonial">
                                     <div className="testimonial_content">
-                                        <h3>{box.title}</h3>
+                                        <p>{box.title}</p>
                                         <p>{box.content}</p>
                                     </div>
                                     <div className="testimonial_img">

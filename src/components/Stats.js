@@ -12,8 +12,8 @@ const Stats = () => {
                             <p>{item.proof}</p>
                         </div>
                         <div className="datas">
-                            <p>{item.data}</p>
-                            <p>{item.text}</p>
+                            <p className='data'>{item.data}</p>
+                            <p className='text'>{item.text}</p>
                         </div>
                     </div>
                 ))}

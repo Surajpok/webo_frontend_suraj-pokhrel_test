@@ -237,4 +237,41 @@ export const FAQ = [
         question: "Outward clothes promise at gravity do excited?",
         answer: "Outdoor cats live 5 years on average. Indoor cats live 15 years on average.",
     },
-];
+]
+
+export const blogData = [
+    {
+        id: 1,
+        heading: "Recent Blogs",
+        subData: [
+            {
+                id: 1,
+                img: require("./assets/images/blog_img1.png"),
+                top: "Best Practices",
+                title: "In design active temper be uneasy. Thirty for remove plenty regard.",
+                class: "blog_one"
+            },
+            {
+                id: 2,
+                img: require("./assets/images/blog_img2.png"),
+                top: "Best Practices",
+                title: "Partiality on or continuing particular principles as. ",
+                class: "blog_two"
+            },
+            {
+                id: 3,
+                img: require("./assets/images/blog_img3.png"),
+                top: "Best Practices",
+                title: "Village did removed enjoyed explain",
+                class: "blog_three"
+            },
+            {
+                id: 4,
+                img: require("./assets/images/blog_img4.png"),
+                top: "Best Practices",
+                title: "Wise busy past both park when an ye no. Nay likely her length.",
+                class: "blog_four"
+            }
+        ]
+    }
+]

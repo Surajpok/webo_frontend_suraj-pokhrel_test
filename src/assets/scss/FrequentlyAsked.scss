@@ -87,15 +87,71 @@
 
 @media screen and (max-width: 870px) {
     .frequently_container {
-        .frequently_wrapper {
-            display: flex;
+        height: min-content;
+        padding: 0 8% 0 8%;
 
-            .faq_section {
-                position: static;
+        .faq_wrapper {
+
+
+            h1 {
+                font-size: 4rem;
+                line-height: 5rem;
             }
 
-            .have_any_question {
-                position: static;
+            .frequently_wrapper {
+
+
+                .faq_section {
+                    position: static;
+                    width: 100%;
+
+                }
+
+                .have_any_question {
+                    position: static;
+                    display: flex;
+                    height: min-content;
+                    width: 100%;
+                    margin-top: 5rem;
+
+                    .have_any_content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin: 3rem 0 1rem 0;
+
+                        img {
+                            padding: 0 0 3rem 0;
+                        }
+
+                        h3 {
+                            font-size: 2.2rem;
+                            line-height: 2.2rem;
+                            padding: 0 0 3rem 0;
+                        }
+
+                        p {
+                            font-size: 1.6rem;
+                            line-height: 3.1rem;
+                            letter-spacing: -0.02em;
+                            text-align: center;
+                        }
+                    }
+
+                    .have_any_button {
+                        width: 100%;
+
+                        button {
+                            font-size: 1.6rem;
+                            line-height: 3.1rem;
+                            background: $color-orange;
+                            padding: 1.5rem;
+                            width: 100%;
+                            color: $color-white;
+                            border: none;
+                        }
+                    }
+                }
             }
         }
     }

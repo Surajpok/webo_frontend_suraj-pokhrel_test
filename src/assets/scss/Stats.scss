@@ -44,3 +44,41 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .stats_container {
+
+
+        .stats_wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            .text {
+                width: 100%;
+
+                .stars_text {
+                    max-width: fit-content;
+                    line-height: 3rem;
+
+                }
+
+                .datas {
+
+                    padding: 1rem 0;
+
+                    .data {
+                        font-size: 5rem;
+                        line-height: 5.2rem;
+
+                    }
+
+                    .text {
+                        font-size: 2rem;
+                        padding: 1rem 0;
+                    }
+                }
+            }
+        }
+    }
+}

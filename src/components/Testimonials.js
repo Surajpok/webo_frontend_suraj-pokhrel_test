@@ -1,9 +1,11 @@
 import React from 'react'
 import { testimonialsData } from '../data'
 import "../assets/scss/Testimonials.scss"
+import Wave from "../assets/images/wave.png"
 const Testimonials = () => {
     return (
         <div className="testimonials_container">
+            <img className="wave_svg" src={Wave} alt="" />
             {testimonialsData.map((item, key) => (
                 <div className="testimonials_wrappers">
                     <h1>{item.heading}</h1>

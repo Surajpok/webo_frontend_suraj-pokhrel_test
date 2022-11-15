@@ -20,18 +20,93 @@
             position: absolute;
             top: 10%;
             left: 10%;
+            animation: myAnim1 2s ease 2s infinite normal both;
+        }
+
+        @keyframes myAnim1 {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.2;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
 
         .cone_svg {
             position: absolute;
             top: 55%;
             left: 25%;
+            animation: myAnim2 5s ease 2s infinite normal both;
+        }
+
+        @keyframes myAnim2 {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0);
+                transform-origin: 50% 50%;
+            }
+
+            15% {
+                transform: translateY(-30px) rotate(-6deg);
+            }
+
+            30% {
+                transform: translateY(15px) rotate(6deg);
+            }
+
+            45% {
+                transform: translateY(-15px) rotate(-3.6deg);
+            }
+
+            60% {
+                transform: translateY(9px) rotate(2.4deg);
+            }
+
+            75% {
+                transform: translateY(-6px) rotate(-1.2deg);
+            }
         }
 
         .cone_one_svg {
             position: absolute;
             top: 50%;
             right: 5%;
+            animation: myAnim3 2s ease 2s infinite reverse both;
+        }
+
+        @keyframes myAnim3 {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0);
+                transform-origin: 50% 50%;
+            }
+
+            15% {
+                transform: translateY(-30px) rotate(-6deg);
+            }
+
+            30% {
+                transform: translateY(15px) rotate(6deg);
+            }
+
+            45% {
+                transform: translateY(-15px) rotate(-3.6deg);
+            }
+
+            60% {
+                transform: translateY(9px) rotate(2.4deg);
+            }
+
+            75% {
+                transform: translateY(-6px) rotate(-1.2deg);
+            }
         }
 
         .jigjag_svg {

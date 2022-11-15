@@ -14,47 +14,117 @@
         gap: 7rem;
 
         .section_left {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            height: min-content;
+            flex: 1;
+            background-color: $color-highlight;
+            border-radius: 2rem;
+            padding: 4rem;
 
+            .green {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                border-radius: 0 0 0 2rem;
+            }
 
+            .orange {
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: 2rem 0 0 0;
+            }
 
+            .blue {
+                position: absolute;
+                right: 0;
+                top: 35%;
+            }
+
+            .ovel {
+                position: absolute;
+                right: -3rem;
+                top: -2rem;
+            }
 
             .profit {
+                display: flex;
+                padding: 1.6rem;
+                align-items: center;
+                border-radius: 10px;
+                background: $color-white;
+                gap: 1.5rem;
+                box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+                z-index: 2;
+                animation-name: floating;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
 
+                @keyframes floating {
+                    from {
+                        transform: translate(0, 0px);
+                    }
 
+                    65% {
+                        transform: translate(0, 15px);
+                    }
 
+                    to {
+                        transform: translate(0, -0px);
+                    }
+                }
+
+                .person_img {}
 
                 .person_content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-bottom: -1.5rem;
 
-
-                    .profit_amount {}
+                    .profit_amount {
+                        font-size: 1.5rem;
+                        color: $secondary-color;
+                        line-height: 1.4rem;
+                        letter-spacing: -0.02em;
+                        font-weight: $font-weight-semi-bold;
+                        width: max-content;
+                        background: $color-white-blue;
+                        padding: 0.6rem;
+                        border-radius: 3rem;
+                    }
 
                     .message {
-
-                        line-height: 2rem;
-
+                        font-size: 1.4rem;
+                        line-height: 3rem;
+                        color: $tertiary-color;
                     }
                 }
             }
 
             .profit1 {
                 animation-delay: 1s;
-                margin: 1.4rem 0rem 1.4rem 0rem !important;
+                margin: 1.4rem -3rem 1.4rem 3rem;
             }
 
             .profit2 {
                 animation-delay: 2s;
-                margin: 1.4rem -2rem 1.4rem 2rem !important;
+                margin: 1.4rem -10rem 1.4rem 10rem;
 
             }
 
             .profit3 {
                 animation-delay: 3s;
-                margin: 1.4rem 2rem 1.4rem -2rem !important;
+                margin: 1.4rem -7rem 1.4rem 7rem;
             }
 
             .profit4 {
                 animation-delay: 4s;
-                margin: 1.4rem -2rem 1.4rem 2rem !important;
+                margin: 1.4rem -2rem 1.4rem 2rem;
 
             }
 
@@ -163,12 +233,20 @@
 
 @media screen and (max-width: 480px) {
     .section_container {
-
+        padding: 0 8%;
+        height: min-content;
 
         .section_wrapper {
-
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1280px;
+            margin: 15rem auto;
+            gap: 7rem;
 
             .section_left {
+                position: relative;
                 display: flex;
                 flex-direction: column;
                 position: relative;

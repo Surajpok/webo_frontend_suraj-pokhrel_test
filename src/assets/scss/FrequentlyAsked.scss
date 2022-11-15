@@ -84,3 +84,19 @@
         }
     }
 }
+
+@media screen and (max-width: 870px) {
+    .frequently_container {
+        .frequently_wrapper {
+            display: flex;
+
+            .faq_section {
+                position: static;
+            }
+
+            .have_any_question {
+                position: static;
+            }
+        }
+    }
+}

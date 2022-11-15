@@ -156,6 +156,12 @@
                         gap: 2rem;
                     }
 
+                    .blog_image {
+                        img {
+                            margin: 0;
+                        }
+                    }
+
                 }
 
                 .blog_two {
@@ -167,6 +173,12 @@
 
                     .blog_content {
                         padding: 2.5rem;
+                    }
+
+                    .blog_image {
+                        img {
+                            margin: 0;
+                        }
                     }
 
                 }
@@ -182,6 +194,11 @@
                         padding: 2.5rem;
                     }
 
+                    .blog_image {
+                        img {
+                            margin: 0;
+                        }
+                    }
 
                 }
 
@@ -199,6 +216,11 @@
 
                     }
 
+                    .blog_image {
+                        img {
+                            margin: auto;
+                        }
+                    }
 
                 }
             }

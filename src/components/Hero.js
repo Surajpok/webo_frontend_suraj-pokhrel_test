@@ -11,7 +11,7 @@ const Hero = () => {
       <Header />
       <img className="fill1" src={Fill} alt="" />
       <img className="fill2" src={Fill2} alt="" />
-      <img className="fill3" src={Fill2} alt="" />
+      <img className="fill3" src={Fill3} alt="" />
       {heroData.map((item, key) => (
         <div className="container">
           <div className="hero_title_box">

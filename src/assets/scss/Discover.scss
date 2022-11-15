@@ -46,7 +46,7 @@
 
         .discover_wrapper {
 
-            padding: 4rem;
+            padding: 4rem 1rem;
 
 
             .discover_title {
@@ -66,8 +66,10 @@
                     background: $color-orange;
                     border: none;
                     color: $color-white;
-                    padding: 2rem 5rem;
-                    border-radius: 10px;
+                    padding: 1.5rem 8rem;
+                    line-height: 3.1rem;
+                    width: 100%;
+                    border-radius: 0px;
                 }
             }
         }

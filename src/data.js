@@ -8,10 +8,7 @@ export const heroData = [
         tick1: "Free Register",
         tick2: "Great Service",
         heroImage: require("./assets/images/hand.png"),
-        tickImg: require("./assets/images/tick.png"),
-        // svg1: require("./assets/images/62.svg"),
-        // svg2: require("./assets/images/24.svg"),
-        // svg3: require("./assets/images/fill1.svg"),
+        tickImg: require("./assets/images/tick.png")
     }
 ]
 
@@ -159,3 +156,86 @@ export const featuresData = [
 
     }
 ]
+
+export const testimonialsData = [
+    {
+        id: 1,
+        heading: "Testimonials",
+        content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own.",
+        subData: [
+            {
+                id: 1,
+                class: "testimonial_one",
+                img: require("./assets/images/girlimg.png"),
+                title: "Really boy law county she unable her sister",
+                content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+            },
+            {
+                id: 2,
+                class: "testimonial_two",
+                img: require("./assets/images/boyimg.png"),
+                title: "Among sex are leave law built now",
+                content: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+            },
+            {
+                id: 3,
+                class: "testimonial_three",
+                img: require("./assets/images/girlimg.png"),
+                title: "Merits behind on afraid or warmly",
+            },
+            {
+                id: 4,
+                class: "testimonial_four",
+                img: require("./assets/images/boyimg.png"),
+                title: "Believing neglected so so allowance existence",
+            }
+        ]
+
+    }
+]
+
+export const statsData = [
+    {
+        id: 1,
+        class: "text",
+        proof: "We speak with our powerful statistics"
+
+    },
+    {
+        id: 2,
+        class: "text",
+        data: "1M+",
+        text: "Active Users"
+
+    },
+    {
+        id: 3,
+        class: "text",
+        data: "30K+",
+        text: "5-Stars Reviews"
+    },
+    {
+        id: 4,
+        class: "text",
+        data: "$252M",
+        text: "Transactions"
+    }
+]
+
+export const FAQ = [
+    {
+        id: 1,
+        question: "How many bones does a cat have?",
+        answer: "A cat has 230 bones - 6 more than a human",
+    },
+    {
+        id: 2,
+        question: "How much do cats sleep?",
+        answer: "The average cat sleeps 12-16 hours per day",
+    },
+    {
+        id: 3,
+        question: "How long do cats live",
+        answer: "Outdoor cats live 5 years on average. Indoor cats live 15 years on average.",
+    },
+];

@@ -1,0 +1,25 @@
+@import "./Variable.scss";
+
+.frequently_container {
+    padding: 14rem 8% 14rem 8%;
+    height: min-content;
+
+    .frequently_wrapper {
+        display: flex;
+        margin: auto;
+        max-width: 1280px;
+        justify-content: space-between;
+        gap: 5rem;
+
+        .faq_section {
+            flex: 2;
+        }
+
+        .have_any_question {
+            flex: 1;
+            border: 1px solid #CFCFCF;
+            border-radius: 1rem;
+            background-color: $color-white;
+        }
+    }
+}

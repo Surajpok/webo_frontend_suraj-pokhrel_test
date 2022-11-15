@@ -1,0 +1,57 @@
+@import "./Variable.scss";
+
+.testimonials_container {
+    padding: 14rem 8% 14rem 8%;
+    height: min-content;
+    background-color: $color-white;
+
+    .testimonials_wrappers {
+        margin: auto;
+        max-width: 1280px;
+
+        h1 {
+            font-size: 7.1rem;
+            font-weight: $font-weight-bold;
+            line-height: 6.6rem;
+            letter-spacing: -0.03em;
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-weight: $font-weight-regular;
+            line-height: 2.9rem;
+            letter-spacing: -0.02em;
+            margin: 2rem 0;
+            max-width: 55ch;
+        }
+
+        .testimonials_boxes {
+            display: flex;
+            align-items: center;
+            overflow: scroll;
+
+            h3 {
+                font-size: 2.2rem;
+
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            .testimonial {
+                display: flex;
+
+                .testimonial_content {
+
+                    padding: 3rem 0 2rem 0;
+                }
+
+                .testimonial_img {}
+
+            }
+
+        }
+    }
+
+}

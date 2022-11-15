@@ -1,0 +1,19 @@
+@import "./Variable.scss";
+
+.stats_container {
+    background-color: $secondary-color;
+
+    .stats_wrapper {
+        display: flex;
+
+        .text {
+
+            .stars_text {}
+
+            .datas {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -4,6 +4,13 @@
     padding: 14rem 8% 14rem 8%;
     height: min-content;
     background-color: $color-highlight-second;
+    position: relative;
+
+    .dash_svg {
+        position: absolute;
+        left: 0;
+        bottom: 10%;
+    }
 
     .features_wrappers {
         margin: auto;

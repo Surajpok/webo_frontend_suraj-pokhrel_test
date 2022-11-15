@@ -1,9 +1,11 @@
 import React from 'react'
 import "../assets/scss/Features.scss"
 import { featuresData } from "../data"
+import Dashsvg from "../assets/images/dash.png"
 const Features = () => {
     return (
         <div className="features_container">
+            <img className="dash_svg" src={Dashsvg} alt="" />
             {featuresData.map((item, key) => (
                 <div className="features_wrappers">
                     <h1>{item.heading}</h1>

@@ -167,6 +167,7 @@ export const testimonialsData = [
                 id: 1,
                 class: "testimonial_one",
                 img: require("./assets/images/girlimg.png"),
+                svg: require("./assets/images/quote.svg"),
                 title: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows . Blessing welcomed ladyship.",
                 content: "- Mike Taylor, Web Designer",
             },
@@ -174,6 +175,7 @@ export const testimonialsData = [
                 id: 2,
                 class: "testimonial_two",
                 img: require("./assets/images/boyimg.png"),
+                svg: require("./assets/images/quote.svg"),
                 title: "Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows . Blessing welcomed ladyship.",
                 content: "- Mike Taylor, Web Designer",
             },
@@ -194,20 +196,23 @@ export const statsData = [
         id: 2,
         class: "text",
         data: "1M+",
-        text: "Active Users"
+        text: "Active Users",
+        svg: require("./assets/images/man.svg").default,
 
     },
     {
         id: 3,
         class: "text",
         data: "30K+",
-        text: "5-Stars Reviews"
+        text: "5-Stars Reviews",
+        svg: require("./assets/images/smalstar.svg").default,
     },
     {
         id: 4,
         class: "text",
         data: "$252M",
-        text: "Transactions"
+        text: "Transactions",
+        svg: require("./assets/images/smalstar.svg").default,
     }
 ]
 

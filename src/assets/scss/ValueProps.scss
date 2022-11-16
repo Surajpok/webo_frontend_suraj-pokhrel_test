@@ -1,125 +1,120 @@
 @import "./Variable.scss";
 
 .value_pops_container {
-    padding: 0 8%;
-    height: min-content;
+  padding: 0 8%;
+  height: min-content;
 
-    .wrapper {
-        display: flex;
-        // flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 1280px;
-        margin: 6rem auto;
-        gap: 3rem;
+  .wrapper {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 6rem auto;
+    gap: 3rem;
 
-        .row {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid #DBE4E9;
-            border-radius: 20px;
-            background-color: $color-white;
-            padding: 9rem 3rem 4.5rem 3rem;
+    .row {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #dbe4e9;
+      border-radius: 20px;
+      background-color: $color-white;
+      padding: 9rem 3rem 4.5rem 3rem;
 
-            .number {
-                font-size: 2.2rem;
-                font-weight: $font-weight-bold;
-                position: absolute;
-                top: 2.1rem;
-                left: 2.2rem;
+      .number {
+        font-size: 2.2rem;
+        font-weight: $font-weight-bold;
+        position: absolute;
+        top: 2.1rem;
+        left: 2.2rem;
+      }
 
-            }
+      .image {
+        padding-bottom: 3.4rem;
+      }
 
-            .image {
-                padding-bottom: 3.4rem;
-            }
-
-            .title {
-                h2 {
-                    font-size: 3rem;
-                    font-weight: $font-weight-bold;
-                    text-align: center;
-                    padding-bottom: 1.7rem;
-                    line-height: 3.4rem;
-                    letter-spacing: -0.03em;
-                }
-            }
-
-            .paragraph {
-                font-size: 1.6rem;
-                line-height: 26px;
-                text-align: center;
-                letter-spacing: -0.02em;
-                font-weight: $font-weight-regular;
-                color: $primary-color-lite;
-            }
-
+      .title {
+        h2 {
+          font-size: 3rem;
+          font-weight: $font-weight-bold;
+          text-align: center;
+          padding-bottom: 1.7rem;
+          line-height: 3.4rem;
+          letter-spacing: -0.03em;
         }
+      }
+
+      .paragraph {
+        font-size: 1.6rem;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        font-weight: $font-weight-regular;
+        color: $primary-color-lite;
+      }
     }
+  }
 }
 
 @media (min-width: 871px) and (max-width: 1024px) {
-    .value_pops_container {
+  .value_pops_container {
+    .wrapper {
+      margin: 3rem auto;
+      gap: 1rem;
 
-        .wrapper {
-            margin: 3rem auto;
-            gap: 1rem;
+      .row {
+        padding: 3rem 1rem 2rem 1rem;
 
-            .row {
-
-                padding: 3rem 1rem 2rem 1rem;
-
-                .number {}
-
-                .image {
-                    padding-bottom: 1.4rem;
-                }
-
-                .title {
-                    h2 {}
-                }
-
-                .paragraph {
-                    font-size: 1.6rem;
-                    line-height: 24px;
-                }
-
-            }
+        .number {
         }
+
+        .image {
+          padding-bottom: 1.4rem;
+        }
+
+        .title {
+          h2 {
+          }
+        }
+
+        .paragraph {
+          font-size: 1.6rem;
+          line-height: 24px;
+        }
+      }
     }
+  }
 }
 
 @media screen and (max-width: 870px) {
-    .value_pops_container {
+  .value_pops_container {
+    .wrapper {
+      margin: 3rem auto;
+      gap: 1rem;
+      flex-direction: column;
 
-        .wrapper {
-            margin: 3rem auto;
-            gap: 1rem;
-            flex-direction: column;
+      .row {
+        padding: 3rem 1rem 2rem 1rem;
 
-            .row {
-
-                padding: 3rem 1rem 2rem 1rem;
-
-                .number {}
-
-                .image {
-                    padding-bottom: 1.4rem;
-                }
-
-                .title {
-                    h2 {}
-                }
-
-                .paragraph {
-                    font-size: 1.6rem;
-                    line-height: 24px;
-                }
-
-            }
+        .number {
         }
-    }
 
+        .image {
+          padding-bottom: 1.4rem;
+        }
+
+        .title {
+          h2 {
+          }
+        }
+
+        .paragraph {
+          font-size: 1.6rem;
+          line-height: 24px;
+        }
+      }
+    }
+  }
 }

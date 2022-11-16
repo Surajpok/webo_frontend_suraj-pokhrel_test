@@ -1,193 +1,189 @@
-@import"./Variable.scss";
+@import "./Variable.scss";
 
 .discover_container {
-    padding: 8rem 8% 6rem 8%;
-    height: min-content;
+  padding: 8rem 8% 6rem 8%;
+  height: min-content;
 
-    .discover_wrapper {
-        position: relative;
-        max-width: 1280px;
-        margin: auto;
-        min-height: max-content;
-        border-radius: 20px;
-        background-color: $secondary-color;
-        padding: 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  .discover_wrapper {
+    position: relative;
+    max-width: 1280px;
+    margin: auto;
+    min-height: max-content;
+    border-radius: 20px;
+    background-color: $secondary-color;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        .net_svg {
-            position: absolute;
-            top: 10%;
-            left: 10%;
-            animation: myAnim1 2s ease 2s infinite normal both;
-        }
-
-        @keyframes myAnim1 {
-            0% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0.2;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        .cone_svg {
-            position: absolute;
-            top: 55%;
-            left: 25%;
-            animation: myAnim2 5s ease 2s infinite normal both;
-        }
-
-        @keyframes myAnim2 {
-
-            0%,
-            100% {
-                transform: translateY(0) rotate(0);
-                transform-origin: 50% 50%;
-            }
-
-            15% {
-                transform: translateY(-30px) rotate(-6deg);
-            }
-
-            30% {
-                transform: translateY(15px) rotate(6deg);
-            }
-
-            45% {
-                transform: translateY(-15px) rotate(-3.6deg);
-            }
-
-            60% {
-                transform: translateY(9px) rotate(2.4deg);
-            }
-
-            75% {
-                transform: translateY(-6px) rotate(-1.2deg);
-            }
-        }
-
-        .cone_one_svg {
-            position: absolute;
-            top: 50%;
-            right: 5%;
-            animation: myAnim3 2s ease 2s infinite reverse both;
-        }
-
-        @keyframes myAnim3 {
-
-            0%,
-            100% {
-                transform: translateY(0) rotate(0);
-                transform-origin: 50% 50%;
-            }
-
-            15% {
-                transform: translateY(-30px) rotate(-6deg);
-            }
-
-            30% {
-                transform: translateY(15px) rotate(6deg);
-            }
-
-            45% {
-                transform: translateY(-15px) rotate(-3.6deg);
-            }
-
-            60% {
-                transform: translateY(9px) rotate(2.4deg);
-            }
-
-            75% {
-                transform: translateY(-6px) rotate(-1.2deg);
-            }
-        }
-
-        .jigjag_svg {
-            position: absolute;
-            top: 10%;
-            right: 5%;
-        }
-
-        .jigjag_one_svg {
-            position: absolute;
-            top: 55%;
-            left: 4%;
-        }
-
-        .discover_title {
-            text-align: center;
-            letter-spacing: -0.03em;
-            color: $color-white;
-
-            h2 {
-                font-size: 5.5rem;
-                line-height: 6.1rem;
-                padding: 5rem;
-            }
-        }
-
-        .discover_button {
-            button {
-                background: $color-orange;
-                border: none;
-                color: $color-white;
-                padding: 2rem 5rem;
-                border-radius: 10px;
-                cursor: pointer;
-            }
-        }
+    .net_svg {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      animation: myAnim1 2s ease 2s infinite normal both;
     }
+
+    @keyframes myAnim1 {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.2;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .cone_svg {
+      position: absolute;
+      top: 55%;
+      left: 25%;
+      animation: myAnim2 5s ease 2s infinite normal both;
+    }
+
+    @keyframes myAnim2 {
+      0%,
+      100% {
+        transform: translateY(0) rotate(0);
+        transform-origin: 50% 50%;
+      }
+
+      15% {
+        transform: translateY(-30px) rotate(-6deg);
+      }
+
+      30% {
+        transform: translateY(15px) rotate(6deg);
+      }
+
+      45% {
+        transform: translateY(-15px) rotate(-3.6deg);
+      }
+
+      60% {
+        transform: translateY(9px) rotate(2.4deg);
+      }
+
+      75% {
+        transform: translateY(-6px) rotate(-1.2deg);
+      }
+    }
+
+    .cone_one_svg {
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      animation: myAnim3 2s ease 2s infinite reverse both;
+    }
+
+    @keyframes myAnim3 {
+      0%,
+      100% {
+        transform: translateY(0) rotate(0);
+        transform-origin: 50% 50%;
+      }
+
+      15% {
+        transform: translateY(-30px) rotate(-6deg);
+      }
+
+      30% {
+        transform: translateY(15px) rotate(6deg);
+      }
+
+      45% {
+        transform: translateY(-15px) rotate(-3.6deg);
+      }
+
+      60% {
+        transform: translateY(9px) rotate(2.4deg);
+      }
+
+      75% {
+        transform: translateY(-6px) rotate(-1.2deg);
+      }
+    }
+
+    .jigjag_svg {
+      position: absolute;
+      top: 10%;
+      right: 5%;
+    }
+
+    .jigjag_one_svg {
+      position: absolute;
+      top: 55%;
+      left: 4%;
+    }
+
+    .discover_title {
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: $color-white;
+
+      h2 {
+        font-size: 5.5rem;
+        line-height: 6.1rem;
+        padding: 5rem;
+      }
+    }
+
+    .discover_button {
+      button {
+        background: $color-orange;
+        border: none;
+        color: $color-white;
+        padding: 2rem 5rem;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .discover_container {
-        padding: 4rem 8% 4rem 8%;
-        height: min-content;
+  .discover_container {
+    padding: 4rem 8% 4rem 8%;
+    height: min-content;
 
-        .cone_svg {
-            display: none;
-        }
-
-        .cone_one_svg {
-            display: none;
-        }
-
-        .discover_wrapper {
-            align-items: stretch;
-            padding: 4rem 3rem;
-
-
-            .discover_title {
-                text-align: center;
-                letter-spacing: -0.03em;
-                color: $color-white;
-
-                h2 {
-                    font-size: 4rem;
-                    line-height: 4.5rem;
-                    padding: 2rem 0;
-                }
-            }
-
-            .discover_button {
-                button {
-                    background: $color-orange;
-                    border: none;
-                    color: $color-white;
-                    padding: 1.5rem;
-                    line-height: 3.1rem;
-                    width: 100%;
-                    border-radius: 0px;
-                }
-            }
-        }
+    .cone_svg {
+      display: none;
     }
 
+    .cone_one_svg {
+      display: none;
+    }
+
+    .discover_wrapper {
+      align-items: stretch;
+      padding: 4rem 3rem;
+
+      .discover_title {
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: $color-white;
+
+        h2 {
+          font-size: 4rem;
+          line-height: 4.5rem;
+          padding: 2rem 0;
+        }
+      }
+
+      .discover_button {
+        button {
+          background: $color-orange;
+          border: none;
+          color: $color-white;
+          padding: 1.5rem;
+          line-height: 3.1rem;
+          width: 100%;
+          border-radius: 0px;
+        }
+      }
+    }
+  }
 }

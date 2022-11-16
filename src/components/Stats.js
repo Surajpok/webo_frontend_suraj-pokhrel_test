@@ -14,7 +14,10 @@ const Stats = () => {
                         </div>
                         <div className="datas">
                             <p className='data'>{item.data}</p>
-                            <p className='text'>{item.text}</p>
+                            <div className="subdata">
+                                <img src={item.svg} alt="" />
+                                <p className='text'>{item.text}</p>
+                            </div>
                         </div>
                     </div>
                 ))}

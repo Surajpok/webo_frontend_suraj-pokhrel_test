@@ -1,107 +1,102 @@
-@import"../scss/Variable.scss";
+@import "../scss/Variable.scss";
 
 .FAQCard {
-    border: 1px solid #CFCFCF;
-    padding-left: 40px;
-    cursor: pointer;
-    border-radius: 1rem;
-    background: $color-white;
-    padding: 2rem;
+  border: 1px solid #cfcfcf;
+  padding-left: 40px;
+  cursor: pointer;
+  border-radius: 1rem;
+  background: $color-white;
+  padding: 2rem;
 
+  .questionHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 
-
-    .questionHeader {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-
-        h3 {
-            font-size: 2rem;
-            line-height: 2.2rem;
-            font-weight: $font-weight-bold;
-        }
-
-        .chefron-right {
-            --b: 2px;
-            /* the thickness */
-            width: 20px;
-            /* the size */
-            aspect-ratio: 1;
-            border: none;
-            /* the outer space */
-            background:
-                conic-gradient(from 90deg at var(--b) var(--b), #fff 90deg, #3D3D3D 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
-            display: inline-block;
-        }
-
-        .chefron-down {
-            --b: 2px;
-            width: 20px;
-            aspect-ratio: 1;
-            border: none;
-            background:
-                conic-gradient(from 90deg at var(--b) var(--b), #fff 90deg, #3D3D3D 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
-            display: inline-block;
-            transform: rotate(45deg);
-        }
+    h3 {
+      font-size: 2rem;
+      line-height: 2.2rem;
+      font-weight: $font-weight-bold;
     }
 
-    p {
-        font-size: 1.6rem;
-        line-height: 3.1rem;
-        letter-spacing: -0.02em;
-        font-weight: $font-weight-regular;
-        padding: 2.3rem;
+    .chefron-right {
+      --b: 2px;
+      /* the thickness */
+      width: 20px;
+      /* the size */
+      aspect-ratio: 1;
+      border: none;
+      /* the outer space */
+      background: conic-gradient(
+          from 90deg at var(--b) var(--b),
+          #fff 90deg,
+          #3d3d3d 0
+        )
+        calc(100% + var(--b) / 2) calc(100% + var(--b) / 2) /
+        calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
     }
 
-    .visible {
-        display: block
+    .chefron-down {
+      --b: 2px;
+      width: 20px;
+      aspect-ratio: 1;
+      border: none;
+      background: conic-gradient(
+          from 90deg at var(--b) var(--b),
+          #fff 90deg,
+          #3d3d3d 0
+        )
+        calc(100% + var(--b) / 2) calc(100% + var(--b) / 2) /
+        calc(50% + var(--b)) calc(50% + var(--b));
+      display: inline-block;
+      transform: rotate(45deg);
     }
+  }
 
-    .invisible {
-        display: none;
-    }
+  p {
+    font-size: 1.6rem;
+    line-height: 3.1rem;
+    letter-spacing: -0.02em;
+    font-weight: $font-weight-regular;
+    padding: 2.3rem;
+  }
 
-    .answer {
-        textcolor: grey;
-    }
+  .visible {
+    display: block;
+  }
+
+  .invisible {
+    display: none;
+  }
+
+  .answer {
+    textcolor: grey;
+  }
 }
 
-.FAQCard:nth-child(-n+4) {
-    margin-bottom: 1.5rem;
+.FAQCard:nth-child(-n + 4) {
+  margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 870px) {
-    .FAQCard {
+  .FAQCard {
+    .questionHeader {
+      h3 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        font-weight: $font-weight-bold;
+      }
 
-
-
-
-        .questionHeader {
-
-
-            h3 {
-                font-size: 1.8rem;
-                line-height: 2.2rem;
-                font-weight: $font-weight-bold;
-            }
-
-            .chefron-right {
-                --b: 2px;
-                /* the thickness */
-                width: 3rem;
-                /* the size */
-                aspect-ratio: 1;
-
-            }
-
-
-        }
-
-
+      .chefron-right {
+        --b: 2px;
+        /* the thickness */
+        width: 3rem;
+        /* the size */
+        aspect-ratio: 1;
+      }
     }
-
-
+  }
 }

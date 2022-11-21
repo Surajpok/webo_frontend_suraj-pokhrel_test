@@ -199,17 +199,20 @@
         gap: 1rem;
 
         .form {
+          display: inline;
           input {
             border: none;
             background-color: $color-milk-white;
-            padding: 1rem 5rem;
+            padding: 1rem 1rem;
+            width: 60%;
           }
 
           button {
             background: $secondary-color;
             border: none;
             color: $color-white;
-            padding: 1rem 2rem;
+            padding: 1rem 1rem;
+            width: 40%;
           }
         }
 
